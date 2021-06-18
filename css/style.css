@@ -1,0 +1,161 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.navbar{
+    background-color: #241b1b;
+   
+}
+
+
+.banner{
+	background-image:url(../images/resto1.jpg);
+	text-align: center;
+    color: #000000;
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner-text{
+	padding:200px 0 150px 0;
+}
+.banner-heading{
+	font-family: Raleway !important;
+	font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+	color:#FFD700;
+}
+.banner-sub-heading{
+	font-family: Raleway !important;
+	font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+	color:#fff;
+    background:#4a4747;
+}
+
+.btn-banner{
+	padding:5px 20px;
+	border-radius:10px;
+	font-weight:700;
+	line-height:1.5;
+	text-align:center;
+	color:#fff !important;
+	text-transform:uppercase;
+}
+.text-intro{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	padding-top:30px;
+}
+
+
+/* mobile view */
+@media (max-width:500px)
+{
+
+.banner-heading{
+	font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.banner-sub-heading{
+	font-size: 10px;
+    font-weight: 200;
+    line-height: 10px;
+    margin-bottom: 40px;
+}
+
+}
+
+.section_welcome{
+     background-color:#ffffff;
+    
+
+ }
+.welcome_content1{
+  width: 50%;
+  float: left;
+  padding-left: 5px;
+  /*margin-right: 5px;*/
+}
+
+.welcome_content2{
+ width: 50%;
+ float: right; 
+ 
+}
+.welcome_content2 img {
+ width: 100%;
+ height: 300px;
+ 
+}
+.reservation_content1{
+  width: 45%;
+  float: left;
+  padding-left: 5px;
+  padding-right: 15px;
+  margin-right: 5px;
+}
+.reservation_content2{
+ width: 45%;
+ float: right; 
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+footer {
+  background-color: #ffb404; 
+  line-height: 100px; 
+  clear: both;
+  height: 22vh;
+  text-align: center;
+
+}
+
+@media (max-width:768px){
+	.banner-text{
+	padding:150px 0 150px 0;
+}
+	.banner-sub-heading{
+	font-size: 23px;
+    font-weight: 200;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+}
+ 
+
+
+
+.contact{
+    margin: 1.5%;
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+    font-family: Raleway !important;
+    }
+
+    .nav-item { 
+       margin-left: 20%;
+    }
+
+    @media (min-width: 992px) {   .active, nav .navbar-nav li a:hover{
+        border-bottom: 4px solid #FFD700;
+    } }
+ 
+  
+    @media (max-width: 768px) {   .active, nav .navbar-nav li a:hover{
+        background: #494c4f;
+    } }
+
+    

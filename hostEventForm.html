@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		body{
+
+
+	background-color: #666666;
+}
+ button{
+ 	width: 190px;
+ 	border: none;
+ }
+
+input{
+
+	display: block;
+	padding: 10px;
+	margin: 10px;
+}
+	</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark ">
+  <!--<a class="navbar-brand" href="#">Navbar</a>-->
+
+ <div class="">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+   <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+         <li class="nav-item active">
+          <a href="#"><span class="fa fa-home fa-lg"></span><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="welcome.html">Welcome</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reservation.html" >Reservation</a>
+        </li>
+        <li class="nav-item">       
+          <a class="nav-link " href="events.html" >Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" >Awards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" >Gallery</a>
+        </li>
+     </ul>
+    </div>
+  
+</nav>
+     <center>
+<h2 style="color: #fff"> Host Event</h2>
+
+    <form method="POST" action="">
+		  	
+		 
+		  <input type="text"  name="fname" id="fname" placeholder="Enter your first name" required>
+		  <input type="text" name="lname" id="lname" placeholder="Enter your last name" required >
+		
+		  <input type="text" name="email"  id="email" placeholder="Enter your email" required >
+		  <input type="text" name="company" id="comp"  placeholder="Enter your company name"  required>
+	      <input type="text" name="evntdate" id="edate"  placeholder="Enter  your EventDate"  required>
+	      <textarea  name=""  rows="3" cols="23" placeholder="Event description" required></textarea><br><br>
+		  <button style="background-color: #ea8b24;color: #ffffff;width: 70px;height: 30px" name="btn_save" type="submit"  >Submit</button>
+       
+  </form>
+   </center>
+</body>
+</html>
